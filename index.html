@@ -2,36 +2,44 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <!-- FONT -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
+        <!-- FONTAWESOME -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-        <link rel="stylesheet" href="style.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- JQUERY -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <title>Slider</title>
+        <!-- JS -->
+        <script src="./script/main.js"></script>
+        <title>REVOLUT</title>
     </head>
-    <body>
-        <div class="container">
-            <div class="slider-wrapper">
-                <div class="prev">
-                    <i class="fas fa-angle-left"></i>
-                </div>
-                <div class="images">
-                    <img class="active first" src="https://images.pexels.com/photos/371633/pexels-photo-371633.jpeg?cs=srgb&dl=clouds-country-daylight-371633.jpg&fm=jpg" alt="">
-                    <img src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-646511634.jpg" alt="">
-                    <img src="https://cdn.mos.cms.futurecdn.net/FUE7XiFApEqWZQ85wYcAfM.jpg" alt="">
-                    <img class="last" src="https://static.photocdn.pt/images/articles/2017/04/28/iStock-546424192.jpg" alt="">
-                </div>
-                <div class="next">
-                    <i class="fas fa-angle-right"></i>
-                </div>
-                <div class="nav">
-                    <i class="fas fa-circle active first"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle last"></i>
-                </div>
-            </div>
-        </div>
 
-        <script src="main.js"></script>
+    <body>   
+        <header class="header">
+            <div class="container">
+                <!-- LEFT HEADER -->
+                <nav class="left-header">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="logo revolut">
+                        </a>
+                    </div>
+                    <div class="nav-left">
+                        <a href="#">Personal</a>
+                        <a href="#">Business</a>
+                    </div>
+                </nav>
+                <!-- RIGHT HEADER -->
+                <div class="right-header">
+                    <div class="button">
+                        <button class="btn login">Sign In</button>
+                        <button class="btn app">Get the App</button>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
     </body>
 </html>
